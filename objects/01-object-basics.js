@@ -80,6 +80,8 @@ city.metroPopulation = 2807338;
 console.log(city);
 
 // TRY IT! Use bracket notation to change the name of the state so that it is spelled out instead of being a two-letter abbreviation. Print the resulting object.
+city["state"] = "Missouri";
+console.log(city);
 
 
 // TRY IT! Use dot notation to add a new property called "claimToFame", with the value being the Gateway Arch, of course! Print the resulting object.
